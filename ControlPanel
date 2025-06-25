@@ -1,1 +1,51 @@
+#Requires AutoHotkey v2.0
 
+myGui := Gui()
+myGui.Title := "Control Panel"
+myGui.MarginX := 38
+myGui.MarginY := 49
+myGui.SetFont("s12", "Consolas")
+myGui.BackColor := 0xbcc5d4
+myGui.Show("w1024 h700")
+
+btnGap := 20 ; gap between buttons
+btnMenu := "w100 h30"
+btnAct := "w100 h100"	
+btnUtil := "w100 h100"
+btnMenuFirst := btnMenu . " x42  y53"
+btnActFirst := btnAct  . " x162  y109"
+btnUtilFirst := btnUtil . " x42  y109"
+btnMenuWithOffset := btnMenu . " x+20"
+btnActXOffset := btnAct . " x+20"
+btnActNextRow := btnAct . " x162 y+20"
+btnUtilWithOffset := btnUtil . " y+20"
+btnExtra := "w100 h30 x882 y7"
+
+;---- Button Group Arrays----
+groupA := []
+groupB := []
+groupC := []
+groupD := []
+groupE := []
+groupF := []
+groupG := []
+groupH := []
+groupEV := []
+allGroups := [groupA, groupB, groupC, groupD, groupE, groupF, groupG, groupH, groupEV]
+
+;---- Title
+
+myGui.Add("Text", "Center y17 cBlack", "Control Panel")
+myGui.SetFont("s8", "Consolas" )
+btnShowEV := myGui.Add("Button", btnExtra, "EVENT HANDLERS")
+
+;---- Menu Buttons
+myGui.SetFont("s12", "Consolas")
+btnShowA := myGui.Add("Button", btnMenuFirst, "Section A")
+btnShowB := myGui.Add("Button", btnMenuWithOffset, "Section B")
+btnShowC := myGui.Add("Button", btnMenuWithOffset, "Section C")
+btnShowD := myGui.Add("Button", btnMenuWithOffset, "Section D")
+btnShowE := myGui.Add("Button", btnMenuWithOffset, "Section E")
+btnShowF := myGui.Add("Button", btnMenuWithOffset, "Section F")
+btnShowG := myGui.Add("Button", btnMenuWithOffset, "Section G")
+btnShowH := myGui.Add("Button", btnMenuWithOffset, "Section H")
