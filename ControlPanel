@@ -1,5 +1,11 @@
 #Requires AutoHotkey v2.0
 
+/*
+
+This is a AHKv2 script for an onscreen macropad with dynamic sections. 
+
+*/
+
 myGui := Gui()
 myGui.Title := "Control Panel"
 myGui.MarginX := 38
