@@ -57,162 +57,165 @@ btnShowF := myGui.Add("Button", btnMenuWithOffset, "Section F")
 btnShowG := myGui.Add("Button", btnMenuWithOffset, "Section G")
 btnShowH := myGui.Add("Button", btnMenuWithOffset, "Section H")
 
-btnUtilFirst "UTILITY BUTTON 1")
+
+;--- Utility Buttons ----
+;these stay visible regardless of active section
+utilBtn1 := myGui.Add("Button",btnUtilFirst "UTILITY BUTTON 1"
 utilBtn1.OnEvent("Click", (*) => MsgBox("You clicked utility row 1"))
 
-btnUtilWithOffset "UTILITY BUTTON 2")
+utilBtn2 := myGui.Add("Button",btnUtilWithOffset "UTILITY BUTTON 2"
 utilBtn2.OnEvent("Click", (*) => MsgBox("You clicked utility row 2"))
 
-btnUtilWithOffset "UTILITY BUTTON 3")
+utilBtn3 := myGui.Add("Button",btnUtilWithOffset "UTILITY BUTTON 3"
 utilBtn3.OnEvent("Click", (*) => MsgBox("You clicked utility row 3"))
 
-btnUtilWithOffset "UTILITY BUTTON 4")
+utilBtn4 := myGui.Add("Button",btnUtilWithOffset "UTILITY BUTTON 4"
 utilBtn4.OnEvent("Click", (*) => MsgBox("You clicked utility row 4"))
 
-btnUtilWithOffset "UTILITY BUTTON 5")
+utilBtn5 := myGui.Add("Button",btnUtilWithOffset "UTILITY BUTTON 5"
 utilBtn5.OnEvent("Click", (*) => MsgBox("You clicked utility row 5"))
 
 ;---- Section A -----
 ; Replace your buttons here
 ; Buttons are formatted as btn[section][row][column]
 
-btnActFirst "ACT BUTTON")
+btnA11 := myGui.Add("Button",btnActFirst "ACT BUTTON")
 btnA11.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA11)
 
-btnActXOffset "ACT BUTTON")
+btnA12 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA12.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA12)
 
-btnActXOffset "ACT BUTTON")
+btnA13 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA13.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA13)
 
-btnActXOffset "ACT BUTTON")
+btnA14 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA14.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA14)
 
-btnActXOffset "ACT BUTTON")
+btnA15 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA15.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA15)
 
-btnActXOffset "ACT BUTTON")
+btnA16 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA16.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA16)
 
-btnActXOffset "ACT BUTTON")
+btnA17 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA17.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA17)
 
-btnActNextRow "ACT BUTTON")
+btnA21 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnA21.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA21)
 
-btnActXOffset "ACT BUTTON")
+btnA22 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA22.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA22)
 
-btnActXOffset "ACT BUTTON")
+btnA23 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA23.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA23)
 
-btnActXOffset "ACT BUTTON")
+btnA24 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA24.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA24)
 
-btnActXOffset "ACT BUTTON")
+btnA25 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA25.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA25)
 
-btnActXOffset "ACT BUTTON")
+btnA26 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA26.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA26)
 
-btnActXOffset "ACT BUTTON")
+btnA27 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA27.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA27)
 
-btnActNextRow "ACT BUTTON")
+btnA31 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnA31.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA31)
 
-btnActXOffset "ACT BUTTON")
+btnA32 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA32.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA32)
 
-btnActXOffset "ACT BUTTON")
+btnA33 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA33.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA33)
 
-btnActXOffset "ACT BUTTON")
+btnA34 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA34.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA34)
 
-btnActXOffset "ACT BUTTON")
+btnA35 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA35.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA35)
 
-btnActXOffset "ACT BUTTON")
+btnA36 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA36.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA36)
 
-btnActXOffset "ACT BUTTON")
+btnA37 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA37.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA37)
 
-btnActNextRow "ACT BUTTON")
+btnA41 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnA41.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA41)
 
-btnActXOffset "ACT BUTTON")
+btnA42 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA42.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA42)
 
-btnActXOffset "ACT BUTTON")
+btnA43 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA43.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA43)
 
-btnActXOffset "ACT BUTTON")
+btnA44 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA44.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA44)
 
-btnActXOffset "ACT BUTTON")
+btnA45 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA45.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA45)
 
-btnActXOffset "ACT BUTTON")
+btnA46 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA46.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA46)
 
-btnActXOffset "ACT BUTTON")
+btnA47 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA47.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA47)
 
-btnActNextRow "ACT BUTTON")
+btnA51 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnA51.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA51)
 
-btnActXOffset "ACT BUTTON")
+btnA52 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA52.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA52)
 
-btnActXOffset "ACT BUTTON")
+btnA53 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA53.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA53)
 
-btnActXOffset "ACT BUTTON")
+btnA54 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA54.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA54)
 
-btnActXOffset "ACT BUTTON")
+btnA55 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA55.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA55)
 
-btnActXOffset "ACT BUTTON")
+btnA56 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA56.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA56)
 
-btnActXOffset "ACT BUTTON")
+btnA57 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnA57.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupA.Push(btnA57)
 
@@ -220,143 +223,143 @@ groupA.Push(btnA57)
 ; Replace your buttons here
 ; Buttons are formatted as btn[section][row][column]
 
-btnActFirst "ACT BUTTON")
+btnB11 := myGui.Add("Button",btnActFirst "ACT BUTTON")
 btnB11.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB11)
 
-btnActXOffset "ACT BUTTON")
+btnB12 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB12.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB12)
 
-btnActXOffset "ACT BUTTON")
+btnB13 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB13.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB13)
 
-btnActXOffset "ACT BUTTON")
+btnB14 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB14.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB14)
 
-btnActXOffset "ACT BUTTON")
+btnB15 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB15.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB15)
 
-btnActXOffset "ACT BUTTON")
+btnB16 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB16.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB16)
 
-btnActXOffset "ACT BUTTON")
+btnB17 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB17.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB17)
 
-btnActNextRow "ACT BUTTON")
+btnB21 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnB21.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB21)
 
-btnActXOffset "ACT BUTTON")
+btnB22 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB22.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB22)
 
-btnActXOffset "ACT BUTTON")
+btnB23 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB23.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB23)
 
-btnActXOffset "ACT BUTTON")
+btnB24 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB24.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB24)
 
-btnActXOffset "ACT BUTTON")
+btnB25 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB25.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB25)
 
-btnActXOffset "ACT BUTTON")
+btnB26 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB26.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB26)
 
-btnActXOffset "ACT BUTTON")
+btnB27 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB27.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB27)
 
-btnActNextRow "ACT BUTTON")
+btnB31 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnB31.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB31)
 
-btnActXOffset "ACT BUTTON")
+btnB32 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB32.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB32)
 
-btnActXOffset "ACT BUTTON")
+btnB33 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB33.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB33)
 
-btnActXOffset "ACT BUTTON")
+btnB34 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB34.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB34)
 
-btnActXOffset "ACT BUTTON")
+btnB35 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB35.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB35)
 
-btnActXOffset "ACT BUTTON")
+btnB36 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB36.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB36)
 
-btnActXOffset "ACT BUTTON")
+btnB37 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB37.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB37)
 
-btnActNextRow "ACT BUTTON")
+btnB41 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnB41.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB41)
 
-btnActXOffset "ACT BUTTON")
+btnB42 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB42.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB42)
 
-btnActXOffset "ACT BUTTON")
+btnB43 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB43.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB43)
 
-btnActXOffset "ACT BUTTON")
+btnB44 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB44.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB44)
 
-btnActXOffset "ACT BUTTON")
+btnB45 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB45.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB45)
 
-btnActXOffset "ACT BUTTON")
+btnB46 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB46.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB46)
 
-btnActXOffset "ACT BUTTON")
+btnB47 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB47.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB47)
 
-btnActNextRow "ACT BUTTON")
+btnB51 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnB51.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB51)
 
-btnActXOffset "ACT BUTTON")
+btnB52 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB52.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB52)
 
-btnActXOffset "ACT BUTTON")
+btnB53 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB53.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB53)
 
-btnActXOffset "ACT BUTTON")
+btnB54 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB54.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB54)
 
-btnActXOffset "ACT BUTTON")
+btnB55 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB55.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB55)
 
-btnActXOffset "ACT BUTTON")
+btnB56 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB56.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB56)
 
-btnActXOffset "ACT BUTTON")
+btnB57 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnB57.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupB.Push(btnB57)
 
@@ -364,143 +367,143 @@ groupB.Push(btnB57)
 ; Replace your buttons here
 ; Buttons are formatted as btn[section][row][column]
 
-btnActFirst "ACT BUTTON")
+btnC11 := myGui.Add("Button",btnActFirst "ACT BUTTON")
 btnC11.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC11)
 
-btnActXOffset "ACT BUTTON")
+btnC12 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC12.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC12)
 
-btnActXOffset "ACT BUTTON")
+btnC13 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC13.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC13)
 
-btnActXOffset "ACT BUTTON")
+btnC14 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC14.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC14)
 
-btnActXOffset "ACT BUTTON")
+btnC15 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC15.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC15)
 
-btnActXOffset "ACT BUTTON")
+btnC16 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC16.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC16)
 
-btnActXOffset "ACT BUTTON")
+btnC17 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC17.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC17)
 
-btnActNextRow "ACT BUTTON")
+btnC21 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnC21.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC21)
 
-btnActXOffset "ACT BUTTON")
+btnC22 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC22.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC22)
 
-btnActXOffset "ACT BUTTON")
+btnC23 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC23.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC23)
 
-btnActXOffset "ACT BUTTON")
+btnC24 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC24.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC24)
 
-btnActXOffset "ACT BUTTON")
+btnC25 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC25.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC25)
 
-btnActXOffset "ACT BUTTON")
+btnC26 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC26.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC26)
 
-btnActXOffset "ACT BUTTON")
+btnC27 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC27.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC27)
 
-btnActNextRow "ACT BUTTON")
+btnC31 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnC31.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC31)
 
-btnActXOffset "ACT BUTTON")
+btnC32 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC32.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC32)
 
-btnActXOffset "ACT BUTTON")
+btnC33 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC33.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC33)
 
-btnActXOffset "ACT BUTTON")
+btnC34 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC34.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC34)
 
-btnActXOffset "ACT BUTTON")
+btnC35 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC35.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC35)
 
-btnActXOffset "ACT BUTTON")
+btnC36 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC36.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC36)
 
-btnActXOffset "ACT BUTTON")
+btnC37 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC37.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC37)
 
-btnActNextRow "ACT BUTTON")
+btnC41 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnC41.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC41)
 
-btnActXOffset "ACT BUTTON")
+btnC42 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC42.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC42)
 
-btnActXOffset "ACT BUTTON")
+btnC43 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC43.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC43)
 
-btnActXOffset "ACT BUTTON")
+btnC44 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC44.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC44)
 
-btnActXOffset "ACT BUTTON")
+btnC45 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC45.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC45)
 
-btnActXOffset "ACT BUTTON")
+btnC46 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC46.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC46)
 
-btnActXOffset "ACT BUTTON")
+btnC47 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC47.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC47)
 
-btnActNextRow "ACT BUTTON")
+btnC51 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnC51.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC51)
 
-btnActXOffset "ACT BUTTON")
+btnC52 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC52.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC52)
 
-btnActXOffset "ACT BUTTON")
+btnC53 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC53.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC53)
 
-btnActXOffset "ACT BUTTON")
+btnC54 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC54.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC54)
 
-btnActXOffset "ACT BUTTON")
+btnC55 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC55.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC55)
 
-btnActXOffset "ACT BUTTON")
+btnC56 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC56.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC56)
 
-btnActXOffset "ACT BUTTON")
+btnC57 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnC57.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupC.Push(btnC57)
 
@@ -508,143 +511,143 @@ groupC.Push(btnC57)
 ; Replace your buttons here
 ; Buttons are formatted as btn[section][row][column]
 
-btnActFirst "ACT BUTTON")
+btnD11 := myGui.Add("Button",btnActFirst "ACT BUTTON")
 btnD11.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD11)
 
-btnActXOffset "ACT BUTTON")
+btnD12 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD12.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD12)
 
-btnActXOffset "ACT BUTTON")
+btnD13 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD13.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD13)
 
-btnActXOffset "ACT BUTTON")
+btnD14 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD14.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD14)
 
-btnActXOffset "ACT BUTTON")
+btnD15 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD15.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD15)
 
-btnActXOffset "ACT BUTTON")
+btnD16 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD16.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD16)
 
-btnActXOffset "ACT BUTTON")
+btnD17 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD17.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD17)
 
-btnActNextRow "ACT BUTTON")
+btnD21 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnD21.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD21)
 
-btnActXOffset "ACT BUTTON")
+btnD22 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD22.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD22)
 
-btnActXOffset "ACT BUTTON")
+btnD23 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD23.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD23)
 
-btnActXOffset "ACT BUTTON")
+btnD24 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD24.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD24)
 
-btnActXOffset "ACT BUTTON")
+btnD25 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD25.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD25)
 
-btnActXOffset "ACT BUTTON")
+btnD26 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD26.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD26)
 
-btnActXOffset "ACT BUTTON")
+btnD27 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD27.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD27)
 
-btnActNextRow "ACT BUTTON")
+btnD31 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnD31.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD31)
 
-btnActXOffset "ACT BUTTON")
+btnD32 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD32.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD32)
 
-btnActXOffset "ACT BUTTON")
+btnD33 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD33.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD33)
 
-btnActXOffset "ACT BUTTON")
+btnD34 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD34.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD34)
 
-btnActXOffset "ACT BUTTON")
+btnD35 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD35.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD35)
 
-btnActXOffset "ACT BUTTON")
+btnD36 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD36.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD36)
 
-btnActXOffset "ACT BUTTON")
+btnD37 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD37.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD37)
 
-btnActNextRow "ACT BUTTON")
+btnD41 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnD41.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD41)
 
-btnActXOffset "ACT BUTTON")
+btnD42 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD42.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD42)
 
-btnActXOffset "ACT BUTTON")
+btnD43 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD43.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD43)
 
-btnActXOffset "ACT BUTTON")
+btnD44 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD44.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD44)
 
-btnActXOffset "ACT BUTTON")
+btnD45 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD45.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD45)
 
-btnActXOffset "ACT BUTTON")
+btnD46 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD46.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD46)
 
-btnActXOffset "ACT BUTTON")
+btnD47 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD47.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD47)
 
-btnActNextRow "ACT BUTTON")
+btnD51 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnD51.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD51)
 
-btnActXOffset "ACT BUTTON")
+btnD52 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD52.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD52)
 
-btnActXOffset "ACT BUTTON")
+btnD53 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD53.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD53)
 
-btnActXOffset "ACT BUTTON")
+btnD54 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD54.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD54)
 
-btnActXOffset "ACT BUTTON")
+btnD55 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD55.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD55)
 
-btnActXOffset "ACT BUTTON")
+btnD56 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD56.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD56)
 
-btnActXOffset "ACT BUTTON")
+btnD57 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnD57.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupD.Push(btnD57)
 
@@ -652,143 +655,143 @@ groupD.Push(btnD57)
 ; Replace your buttons here
 ; Buttons are formatted as btn[section][row][column]
 
-btnActFirst "ACT BUTTON")
+btnE11 := myGui.Add("Button",btnActFirst "ACT BUTTON")
 btnE11.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE11)
 
-btnActXOffset "ACT BUTTON")
+btnE12 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE12.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE12)
 
-btnActXOffset "ACT BUTTON")
+btnE13 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE13.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE13)
 
-btnActXOffset "ACT BUTTON")
+btnE14 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE14.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE14)
 
-btnActXOffset "ACT BUTTON")
+btnE15 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE15.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE15)
 
-btnActXOffset "ACT BUTTON")
+btnE16 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE16.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE16)
 
-btnActXOffset "ACT BUTTON")
+btnE17 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE17.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE17)
 
-btnActNextRow "ACT BUTTON")
+btnE21 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnE21.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE21)
 
-btnActXOffset "ACT BUTTON")
+btnE22 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE22.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE22)
 
-btnActXOffset "ACT BUTTON")
+btnE23 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE23.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE23)
 
-btnActXOffset "ACT BUTTON")
+btnE24 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE24.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE24)
 
-btnActXOffset "ACT BUTTON")
+btnE25 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE25.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE25)
 
-btnActXOffset "ACT BUTTON")
+btnE26 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE26.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE26)
 
-btnActXOffset "ACT BUTTON")
+btnE27 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE27.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE27)
 
-btnActNextRow "ACT BUTTON")
+btnE31 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnE31.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE31)
 
-btnActXOffset "ACT BUTTON")
+btnE32 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE32.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE32)
 
-btnActXOffset "ACT BUTTON")
+btnE33 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE33.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE33)
 
-btnActXOffset "ACT BUTTON")
+btnE34 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE34.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE34)
 
-btnActXOffset "ACT BUTTON")
+btnE35 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE35.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE35)
 
-btnActXOffset "ACT BUTTON")
+btnE36 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE36.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE36)
 
-btnActXOffset "ACT BUTTON")
+btnE37 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE37.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE37)
 
-btnActNextRow "ACT BUTTON")
+btnE41 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnE41.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE41)
 
-btnActXOffset "ACT BUTTON")
+btnE42 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE42.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE42)
 
-btnActXOffset "ACT BUTTON")
+btnE43 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE43.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE43)
 
-btnActXOffset "ACT BUTTON")
+btnE44 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE44.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE44)
 
-btnActXOffset "ACT BUTTON")
+btnE45 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE45.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE45)
 
-btnActXOffset "ACT BUTTON")
+btnE46 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE46.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE46)
 
-btnActXOffset "ACT BUTTON")
+btnE47 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE47.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE47)
 
-btnActNextRow "ACT BUTTON")
+btnE51 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnE51.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE51)
 
-btnActXOffset "ACT BUTTON")
+btnE52 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE52.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE52)
 
-btnActXOffset "ACT BUTTON")
+btnE53 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE53.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE53)
 
-btnActXOffset "ACT BUTTON")
+btnE54 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE54.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE54)
 
-btnActXOffset "ACT BUTTON")
+btnE55 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE55.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE55)
 
-btnActXOffset "ACT BUTTON")
+btnE56 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE56.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE56)
 
-btnActXOffset "ACT BUTTON")
+btnE57 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnE57.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupE.Push(btnE57)
 
@@ -796,143 +799,143 @@ groupE.Push(btnE57)
 ; Replace your buttons here
 ; Buttons are formatted as btn[section][row][column]
 
-btnActFirst "ACT BUTTON")
+btnF11 := myGui.Add("Button",btnActFirst "ACT BUTTON")
 btnF11.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF11)
 
-btnActXOffset "ACT BUTTON")
+btnF12 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF12.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF12)
 
-btnActXOffset "ACT BUTTON")
+btnF13 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF13.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF13)
 
-btnActXOffset "ACT BUTTON")
+btnF14 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF14.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF14)
 
-btnActXOffset "ACT BUTTON")
+btnF15 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF15.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF15)
 
-btnActXOffset "ACT BUTTON")
+btnF16 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF16.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF16)
 
-btnActXOffset "ACT BUTTON")
+btnF17 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF17.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF17)
 
-btnActNextRow "ACT BUTTON")
+btnF21 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnF21.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF21)
 
-btnActXOffset "ACT BUTTON")
+btnF22 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF22.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF22)
 
-btnActXOffset "ACT BUTTON")
+btnF23 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF23.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF23)
 
-btnActXOffset "ACT BUTTON")
+btnF24 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF24.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF24)
 
-btnActXOffset "ACT BUTTON")
+btnF25 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF25.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF25)
 
-btnActXOffset "ACT BUTTON")
+btnF26 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF26.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF26)
 
-btnActXOffset "ACT BUTTON")
+btnF27 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF27.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF27)
 
-btnActNextRow "ACT BUTTON")
+btnF31 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnF31.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF31)
 
-btnActXOffset "ACT BUTTON")
+btnF32 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF32.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF32)
 
-btnActXOffset "ACT BUTTON")
+btnF33 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF33.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF33)
 
-btnActXOffset "ACT BUTTON")
+btnF34 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF34.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF34)
 
-btnActXOffset "ACT BUTTON")
+btnF35 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF35.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF35)
 
-btnActXOffset "ACT BUTTON")
+btnF36 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF36.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF36)
 
-btnActXOffset "ACT BUTTON")
+btnF37 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF37.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF37)
 
-btnActNextRow "ACT BUTTON")
+btnF41 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnF41.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF41)
 
-btnActXOffset "ACT BUTTON")
+btnF42 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF42.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF42)
 
-btnActXOffset "ACT BUTTON")
+btnF43 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF43.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF43)
 
-btnActXOffset "ACT BUTTON")
+btnF44 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF44.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF44)
 
-btnActXOffset "ACT BUTTON")
+btnF45 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF45.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF45)
 
-btnActXOffset "ACT BUTTON")
+btnF46 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF46.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF46)
 
-btnActXOffset "ACT BUTTON")
+btnF47 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF47.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF47)
 
-btnActNextRow "ACT BUTTON")
+btnF51 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnF51.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF51)
 
-btnActXOffset "ACT BUTTON")
+btnF52 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF52.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF52)
 
-btnActXOffset "ACT BUTTON")
+btnF53 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF53.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF53)
 
-btnActXOffset "ACT BUTTON")
+btnF54 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF54.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF54)
 
-btnActXOffset "ACT BUTTON")
+btnF55 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF55.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF55)
 
-btnActXOffset "ACT BUTTON")
+btnF56 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF56.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF56)
 
-btnActXOffset "ACT BUTTON")
+btnF57 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnF57.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupF.Push(btnF57)
 
@@ -940,143 +943,143 @@ groupF.Push(btnF57)
 ; Replace your buttons here
 ; Buttons are formatted as btn[section][row][column]
 
-btnActFirst "ACT BUTTON")
+btnG11 := myGui.Add("Button",btnActFirst "ACT BUTTON")
 btnG11.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG11)
 
-btnActXOffset "ACT BUTTON")
+btnG12 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG12.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG12)
 
-btnActXOffset "ACT BUTTON")
+btnG13 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG13.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG13)
 
-btnActXOffset "ACT BUTTON")
+btnG14 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG14.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG14)
 
-btnActXOffset "ACT BUTTON")
+btnG15 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG15.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG15)
 
-btnActXOffset "ACT BUTTON")
+btnG16 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG16.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG16)
 
-btnActXOffset "ACT BUTTON")
+btnG17 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG17.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG17)
 
-btnActNextRow "ACT BUTTON")
+btnG21 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnG21.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG21)
 
-btnActXOffset "ACT BUTTON")
+btnG22 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG22.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG22)
 
-btnActXOffset "ACT BUTTON")
+btnG23 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG23.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG23)
 
-btnActXOffset "ACT BUTTON")
+btnG24 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG24.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG24)
 
-btnActXOffset "ACT BUTTON")
+btnG25 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG25.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG25)
 
-btnActXOffset "ACT BUTTON")
+btnG26 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG26.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG26)
 
-btnActXOffset "ACT BUTTON")
+btnG27 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG27.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG27)
 
-btnActNextRow "ACT BUTTON")
+btnG31 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnG31.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG31)
 
-btnActXOffset "ACT BUTTON")
+btnG32 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG32.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG32)
 
-btnActXOffset "ACT BUTTON")
+btnG33 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG33.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG33)
 
-btnActXOffset "ACT BUTTON")
+btnG34 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG34.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG34)
 
-btnActXOffset "ACT BUTTON")
+btnG35 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG35.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG35)
 
-btnActXOffset "ACT BUTTON")
+btnG36 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG36.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG36)
 
-btnActXOffset "ACT BUTTON")
+btnG37 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG37.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG37)
 
-btnActNextRow "ACT BUTTON")
+btnG41 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnG41.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG41)
 
-btnActXOffset "ACT BUTTON")
+btnG42 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG42.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG42)
 
-btnActXOffset "ACT BUTTON")
+btnG43 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG43.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG43)
 
-btnActXOffset "ACT BUTTON")
+btnG44 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG44.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG44)
 
-btnActXOffset "ACT BUTTON")
+btnG45 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG45.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG45)
 
-btnActXOffset "ACT BUTTON")
+btnG46 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG46.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG46)
 
-btnActXOffset "ACT BUTTON")
+btnG47 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG47.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG47)
 
-btnActNextRow "ACT BUTTON")
+btnG51 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnG51.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG51)
 
-btnActXOffset "ACT BUTTON")
+btnG52 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG52.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG52)
 
-btnActXOffset "ACT BUTTON")
+btnG53 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG53.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG53)
 
-btnActXOffset "ACT BUTTON")
+btnG54 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG54.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG54)
 
-btnActXOffset "ACT BUTTON")
+btnG55 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG55.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG55)
 
-btnActXOffset "ACT BUTTON")
+btnG56 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG56.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG56)
 
-btnActXOffset "ACT BUTTON")
+btnG57 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnG57.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupG.Push(btnG57)
 
@@ -1084,143 +1087,143 @@ groupG.Push(btnG57)
 ; Replace your buttons here
 ; Buttons are formatted as btn[section][row][column]
 
-btnActFirst "ACT BUTTON")
+btnH11 := myGui.Add("Button",btnActFirst "ACT BUTTON")
 btnH11.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH11)
 
-btnActXOffset "ACT BUTTON")
+btnH12 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH12.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH12)
 
-btnActXOffset "ACT BUTTON")
+btnH13 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH13.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH13)
 
-btnActXOffset "ACT BUTTON")
+btnH14 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH14.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH14)
 
-btnActXOffset "ACT BUTTON")
+btnH15 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH15.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH15)
 
-btnActXOffset "ACT BUTTON")
+btnH16 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH16.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH16)
 
-btnActXOffset "ACT BUTTON")
+btnH17 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH17.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH17)
 
-btnActNextRow "ACT BUTTON")
+btnH21 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnH21.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH21)
 
-btnActXOffset "ACT BUTTON")
+btnH22 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH22.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH22)
 
-btnActXOffset "ACT BUTTON")
+btnH23 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH23.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH23)
 
-btnActXOffset "ACT BUTTON")
+btnH24 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH24.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH24)
 
-btnActXOffset "ACT BUTTON")
+btnH25 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH25.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH25)
 
-btnActXOffset "ACT BUTTON")
+btnH26 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH26.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH26)
 
-btnActXOffset "ACT BUTTON")
+btnH27 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH27.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH27)
 
-btnActNextRow "ACT BUTTON")
+btnH31 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnH31.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH31)
 
-btnActXOffset "ACT BUTTON")
+btnH32 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH32.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH32)
 
-btnActXOffset "ACT BUTTON")
+btnH33 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH33.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH33)
 
-btnActXOffset "ACT BUTTON")
+btnH34 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH34.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH34)
 
-btnActXOffset "ACT BUTTON")
+btnH35 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH35.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH35)
 
-btnActXOffset "ACT BUTTON")
+btnH36 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH36.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH36)
 
-btnActXOffset "ACT BUTTON")
+btnH37 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH37.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH37)
 
-btnActNextRow "ACT BUTTON")
+btnH41 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnH41.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH41)
 
-btnActXOffset "ACT BUTTON")
+btnH42 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH42.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH42)
 
-btnActXOffset "ACT BUTTON")
+btnH43 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH43.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH43)
 
-btnActXOffset "ACT BUTTON")
+btnH44 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH44.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH44)
 
-btnActXOffset "ACT BUTTON")
+btnH45 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH45.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH45)
 
-btnActXOffset "ACT BUTTON")
+btnH46 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH46.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH46)
 
-btnActXOffset "ACT BUTTON")
+btnH47 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH47.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH47)
 
-btnActNextRow "ACT BUTTON")
+btnH51 := myGui.Add("Button",btnActNextRow "ACT BUTTON")
 btnH51.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH51)
 
-btnActXOffset "ACT BUTTON")
+btnH52 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH52.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH52)
 
-btnActXOffset "ACT BUTTON")
+btnH53 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH53.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH53)
 
-btnActXOffset "ACT BUTTON")
+btnH54 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH54.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH54)
 
-btnActXOffset "ACT BUTTON")
+btnH55 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH55.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH55)
 
-btnActXOffset "ACT BUTTON")
+btnH56 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH56.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH56)
 
-btnActXOffset "ACT BUTTON")
+btnH57 := myGui.Add("Button",btnActXOffset "ACT BUTTON")
 btnH57.OnEvent("Click", (*) => MsgBox("You clicked me! Replace me with something :)"))
 groupH.Push(btnH57)
 
