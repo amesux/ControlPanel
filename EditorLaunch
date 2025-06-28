@@ -1,0 +1,21 @@
+#Requires AutoHotkey v2.0
+
+launchGui := Gui()
+launchGui.SetFont("s12", "Consolas")
+launchGui.MarginX := 40
+launchGui.MarginY := 40
+launchGui.Show("w300 h300")
+
+edit := launchGui.Add("Button", "w100 h75", "EDIT")
+edit.OnEvent("Click", (*) => RunMode("EditExisting"))
+add := launchGui.Add("Button", "w100 h75", "ADD")
+add.OnEvent("Click", (*) => RunMode("AddNew"))
+
+RunMode(mode){
+  if(mode = "EditExisting"){
+    Run("EditExisting.ahk")
+    launchGui.Destroy()
+  } else if(mode = "AddNew"){
+    Run("AddNew.ahk")
+  }
+}
