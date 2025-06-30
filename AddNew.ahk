@@ -36,10 +36,8 @@ UtilityAdd := {
   addGui.Add("Text", "y+20", "New Utility Name: ")
   NewUtilName := addGui.Add("Edit", "w400 x+20", "")
 
-  shortscriptutil := addGui.Add("Radio", "y+20", "Short Script (.OnEvent action)")
-  longscriptutil := addGui.Add("Radio", , "Long Script (use Event Handler)")
-  shortscriptutil.OnEvent("Changed", ToggleControl(ShortScriptUtil))
-  longscriptutil.OnEvent("Changed", ToggleControl(LongScriptUtil))
+  UtilUseEventHandler := addGui.Add("Radio", "y+20", "Use Event Handler")
+  UtilUseEventHandler.OnEvent(Checked, ToggleControl(ShortScriptUtil)}
 
   ShortScriptUtil := {
   addGui.Add("Text", "y+20", "&Short Utility Function:")
@@ -51,6 +49,7 @@ UtilityAdd := {
   UtilHandlerNeedsArg := addGui.Add("Edit", "w100 x+20", "Argument (if needed)") 
   NewUtilHandler := addGui.Add("InputBox", "r999 w900 +HScroll", "Write your long script here")
   }
+  ShortScriptUtilEnabled := !LongScriptUtilEnabled
 }
 
 ;----- ACT BUTTONS -----
@@ -62,8 +61,21 @@ ActAdd := {
   addGui.Add("Text", "y+20", "New Action Name: ")
   NewActName := addGui.Add("Text", "x+20", "")
 
-  addGui.Add("Text", 
+  AddUseEventHandler := addGui.Add("Radio", "y+20", "Use Event Handler")
+  AddUseEventHandler.OnEvent(Checked, ToggleControl(ShortScriptAdd)}
 
+  ShortScriptAdd := {
+  addGui.Add("Text", "y+20", "&Short Utility Function:")
+  NewUtilFunction := addGui.Add("Edit", "w400", "Write your short script here")
+  }
+  LongScriptAdd := {
+  addGui.Add("Text", "y+20", "Event Handler Name: ")
+  NewHandlerName := addGui.Add("Edit", "w100 x+20", "Name")
+  UtilHandlerNeedsArg := addGui.Add("Edit", "w100 x+20", "Argument (if needed)") 
+  NewUtilHandler := addGui.Add("InputBox", "r999 w900 +HScroll", "Write your long script here")
+  }
+  ShortScriptAddEnabled := !LongScriptAddEnabled
+}
 ;------ HANDLERS -----
 
 ToggleControl(control){
