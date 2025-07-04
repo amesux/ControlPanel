@@ -6,13 +6,6 @@ sections := ["A", "B", "C", "D", "E", "F", "G", "H"]
 rows := [1, 2, 3, 4, 5]
 columns := [1, 2, 3, 4, 5, 6, 7]
 
-sec := sections.Text
-row := row.Value
-col := columns.Value
-
-newbuttonname := sec . "r" . row . "c" . col
-newbuttonaction := sec . "r" . row . "c" . col . "act"
-
 existingvarlist := FileRead(variablesfile)
 
 existingbuttons := StrSplit(Trim(existingvarlist), "`n")
@@ -27,6 +20,20 @@ found := false
 buttons := ""
 buttonline := ""
 buttonvar := ""
+
+;---- GUI Start here ----
+
+buttongui := Gui()
+buttongui.Title := "Button Maker"
+buttongui.AddText(, "Section")
+sec := buttongui.AddDropDownList(, sections)
+buttongui.AddText(, "Row")
+row := buttongui.AddDropDownList(, rows)
+buttongui.AddText(, "Columns")
+col := buttongui.AddText(, columns)
+
+newbuttonname := sec.Text . "r" . row.Value . "c" . col.Value
+newbuttonaction := sec.Text . "r" . row.Value . "c" . col.Value . "act"
 
 ;--- new button name (add if else for action vs name later)
 
